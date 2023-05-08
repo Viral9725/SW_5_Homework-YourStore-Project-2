@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="demo_com.tutorialsninja.testng.TestNGListeners"></listener>
+    </listeners>
+    <test name="testsuite">
+        <classes>
+            <class name="demo_com.tutorialsninja.testsuite.AccountLoginPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.AccountLoginPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.DeskTopsPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.LaptopsAndNotebooksPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.TopMenuTest"></class>
+        </classes>
+    </test>
+</suite>

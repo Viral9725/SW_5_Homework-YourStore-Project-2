@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite" verbose="1">
+    <groups>
+        <run>
+            <include name="Regression"></include>
+        </run>
+    </groups>
+    <test name="Sanity Test">
+        <classes>
+            <class name="demo_com.tutorialsninja.testsuite.AccountLoginPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.AccountRegisterPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.DeskTopsPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.LaptopsAndNotebooksPageTest"></class>
+            <class name="demo_com.tutorialsninja.testsuite.TopMenuTest"></class>
+        </classes>
+    </test>
+</suite>
